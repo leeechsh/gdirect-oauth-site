@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy disclosure for a personal-use gdirect OAuth client, including Google Drive scope, local tokens and file handling.">
+  <title>Privacy Policy | gdirect Personal OAuth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><nav aria-label="Main navigation">
+  <a class="brand" href="index.html">gdirect <span style="color:#2563eb">/</span> Personal OAuth</a>
+  <div class="navlinks"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:leeechsh@gmail.com">Contact</a></div>
+</nav></header>
+<main>
+<article class="article">
+  <span class="tag">Data transparency</span>
+  <h1>Privacy Policy</h1>
+  <p><strong>Effective date:</strong> October 25, 2026</p>
+  <p>This policy describes the personal Google OAuth client identified as <strong>gdirect</strong> (the "OAuth Client"), configured to work with the independently developed, open-source gdirect desktop utility. It does not claim to be the official policy of the upstream gdirect project or of Google.</p>
+  <h2>1. Information accessed</h2>
+  <p>When you explicitly authorize the OAuth Client, gdirect may access Google Drive file and folder names, identifiers, metadata and file contents, as needed to perform operations that you choose. The requested <span class="pill">https://www.googleapis.com/auth/drive</span> scope can also permit creating, modifying and deleting files.</p>
+  <h2>2. Purposes of access and use</h2>
+  <p>Google Drive data is used to perform the commands you request, including listing, browsing, downloading, uploading and mounting Google Drive. Authentication tokens are used to authenticate subsequent requests to Google APIs.</p>
+  <h2>3. Storage and retention</h2>
+  <p>According to the upstream project's documentation, gdirect stores OAuth credentials and settings in a private local SQLite database on the computer where it runs. Downloaded files remain at the local destination you select. The optional mount feature may keep a local cache, including pending uploads, until processed or removed.</p>
+  <p>This static informational website does not provide an upload form, user registration or Google OAuth endpoint, and its pages do not intentionally collect Google Drive content, access tokens or Google account passwords. The website's hosting provider may process standard technical access information in accordance with its own practices.</p>
+  <h2>4. Sharing and disclosures</h2>
+  <p>Drive API operations communicate with Google services to carry out the requested functionality. The OAuth Client is configured for personal use and does not operate a separate service to sell, advertise with, or intentionally distribute your Google Drive data. Other network services used by your operating system, proxy configuration or hosting provider have their own policies.</p>
+  <h2>5. Google API Services User Data Policy</h2>
+  <p>Use of Google user data is intended only for the user-facing file access functions described in this policy, and not for advertising. Any use or transfer of information received from Google APIs is subject to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including its Limited Use requirements, where applicable.</p>
+  <h2>6. Security</h2>
+  <p>Protect your computer and its local gdirect database. Do not publish OAuth tokens, client secret files or personal Drive contents in a public website repository. Google authorization requests and Drive traffic are made using the desktop tool; review the upstream software and your local configuration before authorizing access.</p>
+  <h2>7. Your choices and deletion</h2>
+  <ul>
+    <li>You may revoke the OAuth Client's access from your Google Account's <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener noreferrer">third-party connections</a> settings.</li>
+    <li>The upstream utility documents <span class="pill">gdirect logout</span> for removing locally stored credentials. This does not automatically erase locally downloaded files or mount cache.</li>
+    <li>You may delete local files and caches from your computer using the appropriate operating-system tools.</li>
+  </ul>
+  <h2>8. Updates</h2>
+  <p>This policy may be updated to describe changes to the OAuth Client, its configuration, or data handling. A new effective date will be displayed when materially updated.</p>
+  <h2>9. Contact</h2>
+  <p>Questions concerning this personal OAuth Client: <a href="mailto:leeechsh@gmail.com">leeechsh@gmail.com</a>.</p>
+  <div class="callout">This text is designed for a personal-use configuration of the referenced open-source utility. It must be reviewed and updated if you run modified code, authorize other users, introduce servers, analytics or telemetry, or handle data differently.</div>
+</article>
+</main>
+<footer>
+  This is an independently configured, personal-use Google OAuth client for the open-source gdirect tool; it is not an official Google product or the upstream project's website.<br>
+  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · <a href="mailto:leeechsh@gmail.com">leeechsh@gmail.com</a>
+</footer>
+</body></html>

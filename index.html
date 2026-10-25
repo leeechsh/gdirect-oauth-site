@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal Google OAuth client configuration for the open-source gdirect Google Drive desktop utility.">
+  <title>Home | gdirect Personal OAuth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><nav aria-label="Main navigation">
+  <a class="brand" href="index.html">gdirect <span style="color:#2563eb">/</span> Personal OAuth</a>
+  <div class="navlinks"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:leeechsh@gmail.com">Contact</a></div>
+</nav></header>
+<main>
+<section class="hero">
+  <span class="tag">Personal-use desktop authorization</span>
+  <h1>gdirect — Google Drive access from your terminal</h1>
+  <p class="lede">A personally configured OAuth client for using the open-source <strong>gdirect</strong> desktop command-line tool to browse, download, upload, and mount Google Drive files.</p>
+  <p>This page explains the purpose of this OAuth client, the permissions it requests, and how it handles your information.</p>
+  <a class="btn" href="privacy.html">How your data is handled</a>
+</section>
+<section class="cards" aria-label="Features">
+  <div class="card"><h3>Browse &amp; download</h3><p>List Google Drive folders and download your selected files through the desktop tool.</p></div>
+  <div class="card"><h3>Upload &amp; manage</h3><p>Transfer files to Google Drive and use supported file operations after granting access.</p></div>
+  <div class="card"><h3>Optional local mount</h3><p>Access Drive via a local mounted filesystem, with temporary local caching where applicable.</p></div>
+</section>
+<section class="article">
+  <h2>Why this app requests Google Drive access</h2>
+  <p>The desktop tool requests <span class="pill">https://www.googleapis.com/auth/drive</span>, which can allow it to view, download, create, edit and delete files in the authorized Google Drive account. This is a broad permission needed for the tool's full functionality; only authorize it for an account you trust.</p>
+  <h2>How authorization works</h2>
+  <p>You initiate Google sign-in through the desktop tool. Google handles the consent flow. The utility connects to Google services to carry out your requested file operations and stores authorization credentials and settings on the computer where it runs. Depending on features used, downloads and mounted files may also be stored locally.</p>
+  <div class="callout"><strong>Personal configuration, not an upstream service.</strong> This OAuth client is separately configured for personal use with the independent open-source project <a href="https://github.com/mizorewww/gdirect" target="_blank" rel="noopener noreferrer">mizorewww/gdirect</a>. This website does not run a Google sign-in page or accept Google Drive files.</div>
+  <h2>Information and support</h2>
+  <p>For how Google account data is accessed, processed and retained, read the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+  <p>Contact: <a href="mailto:leeechsh@gmail.com">leeechsh@gmail.com</a></p>
+</section>
+</main>
+<footer>
+  This is an independently configured, personal-use Google OAuth client for the open-source gdirect tool; it is not an official Google product or the upstream project's website.<br>
+  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · <a href="mailto:leeechsh@gmail.com">leeechsh@gmail.com</a>
+</footer>
+</body></html>
